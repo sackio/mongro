@@ -1,0 +1,64 @@
+{
+  "name": "mongro",
+  "description": "quick mongodb RESTful API",
+  "version": "0.1.0",
+  "homepage": "https://github.com/sackio/mongro",
+  "author": {
+    "name": "Ben Sack",
+    "email": "ben@sack.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sackio/mongro.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sackio/mongro/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/ben/mongro/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/server",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt": "~0.4.5"
+  },
+  "keywords": []
+, "dependencies": {
+    "async": "*"
+  , "underscore": "*"
+  , "underscore.string": "*"
+  , "jsbelt": "*"
+  , "optionall": "*"
+  , "request": "*"
+  , "fstk": "*"
+  , "moment": "*"
+  , "winston": "*"
+  , "express": "*"
+  , "connect": "*"
+  , "express-session": "*"
+  , "morgan": "*"
+  , "body-parser": "*"
+  , "cookie": "*"
+  , "cookie-parser": "*"
+  , "connect-timeout": "*"
+  , "errorhandler": "*"
+  , "connect-redis": "*"
+  , "serve-favicon": "*"
+  , "ejs": "*"
+  , "forever-monitor": "*"
+  , "basic-auth": "*"
+  , "mongodb": "*"
+  , "redis": "*"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "env": {
+    "development": {
+      "host": "http://localhost:9354"
+    , "express": {
+        "port": 9354
+      }
+    , "redis": {
+        "host": "127.0.0.1"
+      , "port": "6379"
+      , "prefix": "dev.mongro.sess"
+      }
+    , "mongodb": {
+        "host": "127.0.0.1"
+      , "port": 27017
+      }
+    }
+  }
+}
