@@ -1,7 +1,7 @@
 {
   "name": "mongro",
   "description": "quick mongodb RESTful API",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/sackio/mongro",
   "author": {
     "name": "Ben Sack",
