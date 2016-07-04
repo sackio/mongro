@@ -12,17 +12,17 @@ use any method for these endpoints:
 
 method corresponds with any of the following from the Node.js MongoDB driver:
 
--find
--findOne
--findOneAndUpdate
--findOneAndReplace
--findOneAndRemove
--deleteOne
--deleteMany
--insertOne
--insertMany
--updateOne
--updateMany
+* find
+* findOne
+* findOneAndUpdate
+* findOneAndReplace
+* findOneAndRemove
+* deleteOne
+* deleteMany
+* insertOne
+* insertMany
+* updateOne
+* updateMany
 
 pass options to the request query or body (body is better as it will probably cast options to their appropriate type)
 
